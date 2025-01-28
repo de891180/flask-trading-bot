@@ -21,5 +21,5 @@ def webhook():
     return jsonify({"message": "Webhook received", "data": data}), 200
 
 if __name__ == '__main__':
-    # 將 Flask 運行在 port 80
-    app.run(host='0.0.0.0', port=80)
+    # 將 Flask 運行在 port 8080
+    app.run(host='0.0.0.0', port=8080)
